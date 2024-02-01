@@ -1,0 +1,17 @@
+{
+  "name": "marcusrognes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "glass",
+    "dev": "glass --watch --serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^16.4.1",
+    "@glass/cli": "file:../glass/src/cli",
+    "@blog/theme": "file:../blog"
+  }
+}
