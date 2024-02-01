@@ -8,7 +8,7 @@
     "dev": "glass --watch --serve"
   },
   "author": "",
-  "license": "ISC",
+  "license": "CC-BY-NC",
   "devDependencies": {
     "dotenv": "^16.4.1",
     "@glass/cli": "file:../glass/src/cli",

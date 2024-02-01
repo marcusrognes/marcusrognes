@@ -3,7 +3,7 @@ import {GlassConfig} from '@glass/cli';
 
 const config: GlassConfig = {
 	theme: process.env.THEME_DIR,
-	dist: "./public",
+	dist: "./docs",
 	content: process.env.CONTENT_DIR,
 	props: {
 		mainMenu: [
