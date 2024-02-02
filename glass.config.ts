@@ -6,6 +6,7 @@ const config: GlassConfig = {
 	dist: "./docs",
 	content: process.env.CONTENT_DIR,
 	props: {
+		title: "Rognes.guru",
 		mainMenu: [
 			{
 				label: "Home",
