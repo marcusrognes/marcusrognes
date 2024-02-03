@@ -1,7 +1,8 @@
 import 'dotenv/config';
 import {GlassConfig} from '@glass/cli';
+import {ThemeConfig} from "@blog/theme/theme/config";
 
-const config: GlassConfig = {
+const config: GlassConfig<ThemeConfig> = {
 	theme: process.env.THEME_DIR,
 	dist: "./docs",
 	content: process.env.CONTENT_DIR,
